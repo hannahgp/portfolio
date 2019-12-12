@@ -1,0 +1,98 @@
+@font-face {
+src: url(fonts/Sophillia.otf);
+font-family: sopillia; 
+}
+
+html {
+    font-size: 10pt; 
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+  /*  background-color:#F6EEDA; */ 
+
+}
+
+h1 {
+    font-family: sophillia; 
+    color: #F74300; 
+    font-size: 6rem;
+}
+
+h2 {
+    font-family: sophillia; 
+    color: #282322; 
+    font-size: 6rem; 
+    text-align: center;
+}
+
+.title-orange {
+    color: #F74300; 
+}
+
+header {
+    width: 100%; 
+    background-color: #F6EEDA; 
+    text-align: center;
+    height: auto; 
+    padding-top: 26rem; 
+    padding-bottom: 26rem; 
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-bottom: 0; 
+}
+
+.nav {
+    background: transparent;
+}
+
+.nav .nav-item .nav-link {
+    color: #F74300; 
+    text-transform: capitalize;
+}
+
+.about-div {
+    background-color: #F5F9F4;
+    padding: 20rem; 
+    z-index: -1; 
+}
+
+.work-div {
+    background-color: #F6EEDA; 
+    width: 75%; 
+    position: relative; 
+    z-index: 1; 
+    margin-top: -15rem; 
+    padding: 10rem; 
+}
+
+.empty-div {
+    background-color: #F74300; 
+    width: 100%; 
+    padding: 25rem; 
+    margin-top: -25rem; 
+    z-index: -1; 
+}
+
+.in-touch-div {
+width: 100% ;
+background-color:#F6EEDA; 
+padding: 25rem; 
+}
+
+.about-rule {
+    border-top:  #282322 solid 0.2rem ;     
+ }
+ 
+ 
+ .work-rule {
+     border-top: #F74300 solid 0.2rem; 
+ }
+
+footer {
+    background: #282322; 
+    color: #F74300; 
+    width: 100%; 
+    height: auto; 
+    padding: 5rem; 
+    text-align: center; 
+}
