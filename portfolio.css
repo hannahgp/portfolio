@@ -3,8 +3,19 @@ src: url(fonts/Sophillia.otf);
 font-family: sopillia; 
 }
 
+/* colours: 
+beige #F6EEDA
+white #F5F9F4
+orange #F74300
+black #282322
+yellow #FFC200
+green #055D43
+blue #487D85
+*/ 
+
+
 html {
-    font-size: 10pt; 
+    font-size:  10pt; 
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -34,25 +45,71 @@ header {
     background-color: #F6EEDA; 
     text-align: center;
     height: auto; 
-    padding-top: 26rem; 
-    padding-bottom: 26rem; 
+    padding-top: 25rem; 
+    padding-bottom: 25rem; 
     padding-left: 15rem;
     padding-right: 15rem;
-    margin-bottom: 0; 
+    margin-top: -5rem; 
+
 }
 
 .nav {
     background: transparent;
+    padding: 1rem; 
 }
 
 .nav .nav-item .nav-link {
     color: #F74300; 
-    text-transform: capitalize;
+    font-size: 1.1rem; 
+    font-weight: 500;
 }
+
+
+.nav .nav-item .nav-link:hover {
+    font-weight: 700;
+} 
+
+.strike {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .strike:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+  
+  .strike:before {
+    left: -2.5px;
+  }
+  .strike:after {
+    right: 2.5px;
+    background: #FFC200;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .strike:hover:before {
+    background: #FFC200;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .strike:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+  
 
 .about-div {
     background-color: #F5F9F4;
-    padding: 20rem; 
+    padding: 30rem; 
     z-index: -1; 
 }
 
@@ -79,12 +136,12 @@ background-color:#F6EEDA;
 padding: 25rem; 
 }
 
-.about-rule {
+.black-rule {
     border-top:  #282322 solid 0.2rem ;     
  }
  
  
- .work-rule {
+ .orange-rule {
      border-top: #F74300 solid 0.2rem; 
  }
 
@@ -96,3 +153,41 @@ footer {
     padding: 5rem; 
     text-align: center; 
 }
+
+
+.carousel {
+    width: 95%;
+    margin: auto; 
+} 
+
+.carousel-whole {
+    position: relative; 
+    width: 100%; 
+    padding: 15rem; 
+    background-color: #F5F9F4;
+    z-index: -1;
+}
+
+#illus-title{
+    background-color: transparent;
+    padding-top: 30rem; 
+    padding-bottom: 30rem;  
+    padding-left: 1rem;  
+    padding-right: 43rem; 
+    position: relative; 
+  margin-top: -88rem; 
+  z-index: 1;
+}
+.work-back {
+    background-color: blue;
+    padding: 30rem;  
+    position: relative; 
+    margin-top: -40rem; 
+    z-index: -2; 
+}
+
+.work-images {
+    background-color: red;
+    padding: 30rem;  
+}
+
