@@ -36,6 +36,17 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 3rem;
+    color: #F74300;
+}
+
 .title-orange {
     color: #F74300; 
 }
@@ -154,7 +165,258 @@ footer {
     text-align: center; 
 }
 
+.section1 {
+    background-color: #F5F9F4; 
+    width: 100%; 
+}
 
+.image {
+    margin-top: 12rem;
+    margin-bottom: 12rem; 
+    z-index: -1; 
+    margin-right: 0;
+}
+
+.green-front {
+    background-color: #055D43; 
+    margin-top: 30rem; 
+    margin-bottom: 15rem; 
+    margin-left: 10rem;
+    margin-right: -7rem; 
+    z-index: 1;
+    color: #F5F9F4; 
+    padding-top: 3rem; 
+    padding-bottom: 2rem; 
+}
+
+#zahra-front {
+    margin-top: 38rem; 
+    margin-bottom: 15rem; 
+    padding-top: 2rem; 
+    padding-bottom: 1rem; 
+}
+
+#shaq-front {
+    margin-top: 47rem; 
+    margin-bottom: 16rem; 
+    margin-right: -4rem; 
+}
+
+#pulp-front {
+    margin-top: 27rem; 
+    margin-bottom: 39rem; 
+    margin-right: -5rem; 
+}
+
+#frogs-front {
+    margin-top: 37rem; 
+    margin-bottom: 30rem; 
+    margin-right: -5rem; 
+}
+
+.green-back {
+    background-color: #055D43; 
+    margin-top: 18rem; 
+    margin-bottom: 20rem; 
+    margin-left: -1.1rem;
+    margin-right: 10rem; 
+}
+
+#zahra-back {
+    margin-top: 18rem; 
+    margin-bottom: 34rem; 
+}
+
+#pulp-back {
+    margin-top: 32rem; 
+    margin-bottom: 20rem; 
+}
+
+#frogs-back {
+    margin-top: 18rem; 
+    margin-bottom: 35rem; 
+}
+
+.blue-front {
+    background-color: #487D85; 
+    margin-top: 18rem; 
+    margin-bottom: 30rem; 
+    margin-left: -10rem;
+    margin-right: 10rem; 
+    z-index: 1;
+    color: #F5F9F4;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+#icarus-front {
+    margin-top: 18rem; 
+    margin-bottom: 42rem; 
+}
+
+#odyssey-front {
+    margin-top: 24rem; 
+    margin-bottom: 44rem; 
+    margin-left: -4rem;
+}
+
+#movies-front {
+    margin-top: 40rem; 
+    margin-bottom: 15rem; 
+    margin-left: -3rem;
+}
+
+#wywh-front {
+    margin-top: 18rem; 
+    margin-bottom: 40rem; 
+    margin-left: -7rem;
+}
+
+.blue-back {
+    background-color: #487D85; 
+    margin-top: 25rem; 
+    margin-bottom: 15rem; 
+    margin-left: 10rem;
+    margin-right: -7rem; 
+}
+
+#icarus-back {
+    margin-top: 30rem; 
+    margin-bottom: 24rem; 
+}
+
+#odyssey-back {
+    margin-top: 34rem; 
+    margin-bottom: 22rem; 
+}
+
+#movies-back{
+    margin-top: 16rem; 
+    margin-bottom: 26rem; 
+}
+
+.yellow-front {
+    background-color: #FFC200; 
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-left: 10rem;
+    margin-right: -10rem; 
+    z-index: 1;
+    color: #F5F9F4; 
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+#kazin-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem;
+    margin-right: -4rem;  
+}
+
+#denise-front {
+    margin-top: 30rem; 
+    margin-bottom: 40rem; 
+    margin-right: -5rem; 
+}
+
+#timmy-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -5rem; 
+}
+
+.yellow-back {
+    background-color: #FFC200 ;
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.1rem;
+    margin-right: 10rem; 
+}
+
+#kazin-back {
+    margin-top: 20rem; 
+    margin-bottom: 33rem; 
+}
+
+#denise-back {
+    margin-top: 15rem; 
+    margin-bottom: 50rem; 
+}
+
+#timmy-back {
+    margin-top: 27rem; 
+    margin-bottom: 22rem; 
+}
+
+.orange-front {
+    background-color: #F74300; 
+    margin-top: 31rem; 
+    margin-bottom: 20rem; 
+    margin-left: -10rem;
+    margin-right: 10rem; 
+    z-index: 1;
+    color: #F5F9F4;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+}
+
+#artychokes-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem; 
+    margin-left: -7rem;
+}
+
+#furnar-front {
+    margin-left: -4rem;
+}
+
+#pandora-front {
+    margin-top: 38rem; 
+    margin-bottom: 28rem; 
+    margin-left: -5rem;
+}
+
+#trad-front {
+    margin-top: 42rem; 
+    margin-bottom: 18rem; 
+    margin-left: -3rem;
+}
+
+.orange-back {
+    background-color: #F74300;  
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+    margin-left: 10rem;
+    margin-right: -7rem; 
+}
+
+#artychokes-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#pandora-back{
+    margin-top: 17rem; 
+    margin-bottom: 34rem; 
+}
+
+.description {
+    font-size: 1.3rem; 
+}
+
+.work1 {
+    background-color: #F5F9F4;
+    width: 100%; 
+}
+
+.work-link:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+
+
+/*
 .carousel {
     width: 95%;
     margin: auto; 
@@ -191,3 +453,73 @@ footer {
     padding: 30rem;  
 }
 
+.background {
+    background-color: #F5F9F4; 
+    padding: 30rem; 
+} */ 
+
+/* 
+.container {
+    background-color: #F5F9F4; 
+    margin-top: 5rem;
+}
+
+#work-back {
+    background-color: #F5F9F4; 
+}
+
+#sidebyside {
+    margin-top: -5rem; 
+}
+
+#artychokes {
+    margin-top: -10rem; 
+}
+
+#change {
+    margin-top: -12rem; 
+}
+
+#canterbury{
+    margin-top: -15rem; 
+}
+
+#shaq {
+    margin-top: -6rem;
+}
+
+#kazin {
+    margin-top: -15rem;
+}
+
+#icarus {
+    margin-top: -17rem;
+}
+
+#timmy {
+    margin-top: -8rem;
+}
+
+#denise {
+    margin-top: -8rem; 
+}
+
+#movies {
+    margin-top: -3rem; 
+}
+
+#family {
+    margin-top: -10rem; 
+}
+
+#frogs {
+    margin-top: -10rem; 
+}
+
+#odyssey {
+    margin-top: -12rem; 
+}
+
+#traditional {
+    margin-top: -13rem; 
+} */ 
