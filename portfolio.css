@@ -20,7 +20,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color:#F5F9F4; 
-
+    overflow-x: hidden;
 }
 
 h1 {
@@ -131,12 +131,12 @@ header {
   }
 .strike:after {
     right: 2.5px;
-    background: #FFC200;
+    background: #282322;
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
 .strike:hover:before {
-    background: #FFC200;
+    background: #282322;
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
@@ -146,12 +146,19 @@ header {
     width: 100%;
     transition: 0s;
   }
+
+.rectangles-vert1 {
+    width: 4%; 
+    margin-left: 8%; 
+    margin-top: 4%; 
+    opacity: 0.8; 
+}
   
 .about-div {
     background-color: #F5F9F4;
     text-align: center; 
     font-size: 1.2rem;
-    padding-top: 14rem; 
+    padding-top: 10rem; 
     padding-bottom: 39rem;
     padding-right: 30rem;
     padding-left: 30rem;
@@ -198,7 +205,6 @@ header {
     margin-left: 73%;   
     margin-top: -65%;   
     margin-bottom: 0; 
-
 }
 
 .index-img-div {
@@ -212,7 +218,7 @@ header {
     width: 20%; 
     margin-top: -10%;  
     margin-left: 75%; 
-    margin-bottom: -5rem; 
+    margin-bottom: -15rem; 
     opacity: 0.5;
     position:relative; 
     z-index: -1; 
@@ -260,11 +266,57 @@ header {
     opacity: 0.7;
 }
 
-.rectangles-vert {
+.rectangles-vert2 {
     width: 3.5%; 
     margin-left: 8%;
     margin-top: -58rem; 
     opacity: 0.8; 
+}
+
+.findme-div {
+    text-align: center; 
+    margin-bottom: 10%; 
+    background-color: transparent; 
+    border: solid 0.2rem #F74300; 
+    width: 75%; 
+    position: relative; 
+    margin-left: 4%; 
+    z-index: 2;
+}
+
+.contact-instagram {
+    padding: 3rem; 
+    color: #F74300;
+}
+
+.contact-behance {
+    padding: 3rem; 
+    color: #F74300;
+}
+
+.contact-email {
+    padding: 3rem; 
+    color: #F74300;
+}
+
+.contact-instagram:hover {
+    color: #282322;
+}
+
+.contact-behance:hover {
+    color: #282322; 
+}
+
+.contact-email:hover {
+    color: #282322; 
+}
+
+.index-london {
+    width: 28%; 
+    position: relative; 
+    margin-left: 75%; 
+    margin-top: -30%; 
+    opacity: 0.7;
 }
 
 .black-rule {
@@ -631,36 +683,7 @@ input[type=submit]:hover {
     width: 100%; 
 }
 
-.work3 {
-    text-align: center;
-    background-color: #F5F9F4; 
-    color: #F74300;
-    padding: 10rem; 
-}
 
-.contact-instagram {
-    padding: 3rem; 
-}
-
-.contact-behance {
-    padding: 3rem; 
-}
-
-.contact-email {
-    padding: 3rem; 
-}
-
-.contact-instagram:hover {
-    color: #055D43;
-}
-
-.contact-behance:hover {
-    color: #FFC200; 
-}
-
-.contact-email:hover {
-    color: #487D85; 
-}
 
 .carousel {
     margin-bottom: -5rem; 
