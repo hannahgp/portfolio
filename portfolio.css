@@ -353,6 +353,7 @@ footer {
     margin-bottom: 12rem; 
     z-index: -1; 
     margin-right: 0;
+    border: solid 0.01rem #F5F9F4; 
 }
 
 .orange-left {
@@ -370,7 +371,7 @@ footer {
 
 #zahra-front {
     margin-top: 38rem; 
-    margin-bottom: 15rem; 
+    margin-bottom: 20rem; 
     padding-top: 2rem; 
     padding-bottom: 1rem; 
 }
@@ -387,6 +388,12 @@ footer {
     margin-bottom: 43rem; 
     margin-right: -10rem; 
     padding-top: 2rem; 
+}
+
+#dungarees-front {
+    margin-top: 46rem; 
+    margin-bottom: 20rem; 
+    margin-right: -4rem; 
 }
 
 #shaq-front {
@@ -452,6 +459,12 @@ footer {
     margin-left: -1.8rem;
 }
 
+#dungarees-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
 #kazin-back {
     margin-top: 20rem; 
     margin-bottom: 33rem; 
@@ -506,6 +519,12 @@ footer {
     margin-left: -7rem;
 }
 
+#wellies-front {
+    margin-top: 15rem; 
+    margin-bottom: 40rem; 
+    margin-left: -5rem;
+}
+
 #odyssey-front {
     margin-top: 24rem; 
     margin-bottom: 44rem; 
@@ -551,6 +570,10 @@ footer {
     margin-right: -7rem; 
 }
 
+#look-back {
+    margin-bottom: 18rem; 
+}
+
 #canterbury-back {
     margin-top: 17rem; 
     margin-bottom: 30rem; 
@@ -564,6 +587,11 @@ footer {
 #artychokes-back {
     margin-top: 17rem; 
     margin-bottom: 30rem; 
+}
+
+#wellies-back {
+    margin-top: 20rem; 
+    margin-bottom: 25rem; 
 }
 
 #odyssey-back {
@@ -588,6 +616,7 @@ footer {
 
 .description {
     font-size: 1.3rem; 
+    color: #282322; 
 }
 
 .work1 {
@@ -595,23 +624,30 @@ footer {
     width: 100%; 
 }
 
-a .work-link:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=50);
+.work-link {
+    color: #F74300;
 }
 
-.website {
+.work-link:hover {
+    font-weight: 300;
+    text-decoration: none;
+    color: #F74300;
+}
+
+.look-website {
     color: #282322; 
     text-decoration: none;
 }
-.website:hover {
-    color: #FFC200;  
+
+.look-website:hover {
+    color: #F74300;
     text-decoration: none;
 }
 
 .image-spec {
     margin-top: 7rem; 
     margin-bottom: 5rem; 
+    border: solid 0.01rem #F5F9F4; 
 }
 
 .image-grid {
@@ -619,24 +655,15 @@ a .work-link:hover {
     margin-bottom: 1rem; 
     margin-left: 0rem;
     margin-right: 0rem; 
+    border: solid 0.01rem #F5F9F4; 
 }
 
 #icarus-panels {
     margin-top: -7rem; 
 }
 
-
 #icarus-comic {
     margin-top: -5rem; 
-}
-
-.work-row {
-    margin-top: -5rem; 
-}
-
-.work-row2 {
-    margin-top: -10rem; 
-    padding-bottom: 3rem; 
 }
 
 .greek-rule1 {
@@ -667,7 +694,7 @@ a .work-link:hover {
 ::placeholder { 
     color: #282322; 
     opacity: 0.8; 
-  }
+} 
 
 input[type=text], select, textarea {
     width: 100%;
@@ -767,9 +794,6 @@ button:hover {
     background-color: #F74300;  
     opacity: 0.8; 
   }
-
-
-
 
 
 
