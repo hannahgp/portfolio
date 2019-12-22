@@ -198,6 +198,10 @@ header {
     padding: 10rem; 
 }
 
+.carousel {
+    margin-bottom: -5rem; 
+}
+
 .rectangles-hor {
     width: 11%; 
     opacity: 0.9; 
@@ -643,6 +647,20 @@ a .work-link:hover {
     margin-bottom: 7rem; 
 }
 
+#regForm {
+    background-color: #F5F9F4;
+    margin: 10rem auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+
+::placeholder { 
+    color: #282322; 
+    opacity: 0.8; 
+  }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -652,116 +670,74 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    outline: none; 
   }
   
-input[type=submit] {
-    background-color: #F74300;
-    color: #F5F9F4;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-input[type=submit]:hover {
-    background-color: #F5F9F4;
-    color:#F74300;
-  }
-  
-.contact-div {
-    background-color: #F5F9F4;
-    width: 100%; 
-}
-
-.contact-form {
-    width: 70%; 
-    border-radius: 5px;
-    background-color: #F5F9F4;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem; 
-  }
-
-.carousel {
-    margin-bottom: -5rem; 
-}
-
-/*basic reset*/
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/*form styles*/
-#msform {
-    text-align: center;
-    position: relative;
-    margin-top: 30px;
-}
-
-#msform fieldset {
-    background: #F5F9F4;
-    border: 0 none;
-    border-radius: 0px;
-    padding: 20px 30px;
-    box-sizing: border-box;
-    width: 80%;
-    margin: 0 10%;
-
-    /*stacking fieldsets above each other*/
-    position: relative;
-}
-
-/*Hide all except first fieldset*/
-#msform fieldset:not(:first-of-type) {
-    display: none;
-}
-
-/*inputs*/
-#msform input, #msform textarea {
-    padding: 15px;
-    border-bottom: 0.2rem solid #F74300;
-    border-radius: 0px;
-    margin-bottom: 10px;
+input {
+    padding: 0.8rem;
     width: 100%;
-    box-sizing: border-box;
-    font-family: montserrat;
-    color: #282322;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    border: solid 0.1rem #F5F9F4;
+    color: #282322; 
+    outline: none; 
+  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: #F5F9F4;
+  -webkit-text-fill-color: #282322; 
+  transition: background-color 5000s ease-in-out 0s;
 }
 
-/*buttons*/
-#msform .action-button {
-    background-color: #F74300;
+input.invalid {
+    border: solid 0.1rem #F74300;   
+  }
+  
+.tab {
+    display: none;
+  }
+  
+button {
+    background-color: #F74300;    
     color: #F5F9F4;
-    padding: 12px 20px;
     border: none;
     border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 17px;
     cursor: pointer;
-    width: 30%; 
-}
-
-#msform .action-button:hover, #msform .action-button:focus {
-    background-color: #282322;
-}
-
-#msform .action-button-previous {
-    background-color: #282322;
-    color: #F5F9F4;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 30%; 
-    padding: 10px 5px;
-    margin: 10px 5px;
-}
-
-#msform .action-button-previous:hover, #msform .action-button-previous:focus {
-    background-color:#F74300;
-}
-
-
+  }
+  
+button:hover {
+    background-color:#282322;   
+  }
+  
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #282322;  
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.2;
+  }
+  
+.step.active {
+    background-color: #ECD8C1; 
+    opacity: 1; 
+  }
+  
+.step.finish {
+    background-color: #F74300;  
+    opacity: 0.8; 
+  }
 
 
 
