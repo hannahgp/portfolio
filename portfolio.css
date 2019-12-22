@@ -344,7 +344,7 @@ footer {
 }
 
 .section1 {
-    background-color: #F5F9F4; 
+    background-color: transparent; 
     width: 100%; 
 }
 
@@ -355,14 +355,15 @@ footer {
     margin-right: 0;
 }
 
-.green-front {
-    background-color: #055D43; 
+.orange-left {
+    background-color: #F5F9F4; 
+    color: #F74300; 
+    border: solid 0.2rem #F74300; 
     margin-top: 30rem; 
     margin-bottom: 15rem; 
     margin-left: 10rem;
     margin-right: -7rem; 
     z-index: 1;
-    color: #F5F9F4; 
     padding-top: 3rem; 
     padding-bottom: 2rem; 
 }
@@ -374,15 +375,40 @@ footer {
     padding-bottom: 1rem; 
 }
 
+#change-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -10rem; 
+    padding-top: 2rem; 
+}
+
+#family-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -10rem; 
+    padding-top: 2rem; 
+}
+
 #shaq-front {
     margin-top: 47rem; 
     margin-bottom: 16rem; 
     margin-right: -4rem; 
 }
 
+#kazin-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem;
+    margin-right: -4rem;  
+}
 #pulp-front {
     margin-top: 27rem; 
     margin-bottom: 39rem; 
+    margin-right: -5rem; 
+}
+
+#denise-front {
+    margin-top: 30rem; 
+    margin-bottom: 40rem; 
     margin-right: -5rem; 
 }
 
@@ -392,11 +418,20 @@ footer {
     margin-right: -5rem; 
 }
 
-.green-back {
-    background-color: #055D43; 
+#timmy-front {
+    margin-top: 20rem; 
+    margin-bottom: 43rem; 
+    margin-right: -5rem; 
+}
+
+.black-right {
+    background-color: #F5F9F4; 
+    border: solid 0.2rem #282322;
+    z-index: -2; 
+    position: relative;
     margin-top: 18rem; 
     margin-bottom: 20rem; 
-    margin-left: -1.1rem;
+    margin-left: -2rem;
     margin-right: 10rem; 
 }
 
@@ -405,9 +440,31 @@ footer {
     margin-bottom: 34rem; 
 }
 
+#change-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
+#family-back {
+    margin-top: 25rem; 
+    margin-bottom: 27rem; 
+    margin-left: -1.8rem;
+}
+
+#kazin-back {
+    margin-top: 20rem; 
+    margin-bottom: 33rem; 
+}
+
 #pulp-back {
     margin-top: 32rem; 
     margin-bottom: 20rem; 
+}
+
+#denise-back {
+    margin-top: 15rem; 
+    margin-bottom: 50rem; 
 }
 
 #frogs-back {
@@ -415,16 +472,27 @@ footer {
     margin-bottom: 35rem; 
 }
 
-.blue-front {
-    background-color: #487D85; 
+#timmy-back {
+    margin-top: 27rem; 
+    margin-bottom: 22rem; 
+}
+
+.orange-right {
+    background-color: #F5F9F4; 
+    color: #F74300; 
+    border: solid 0.2rem #F74300;     
     margin-top: 18rem; 
     margin-bottom: 30rem; 
     margin-left: -10rem;
     margin-right: 10rem; 
     z-index: 1;
-    color: #F5F9F4;
     padding-top: 2rem; 
     padding-bottom: 2rem; 
+}
+
+#canterbury-front {
+    margin-top: 31rem; 
+    margin-bottom: 20rem; 
 }
 
 #icarus-front {
@@ -432,9 +500,21 @@ footer {
     margin-bottom: 42rem; 
 }
 
+#artychokes-front {
+    margin-top: 40rem; 
+    margin-bottom: 25rem; 
+    margin-left: -7rem;
+}
+
 #odyssey-front {
     margin-top: 24rem; 
     margin-bottom: 44rem; 
+    margin-left: -4rem;
+}
+
+#danzac-front {
+    margin-top: 31rem; 
+    margin-bottom: 30rem; 
     margin-left: -4rem;
 }
 
@@ -444,114 +524,16 @@ footer {
     margin-left: -3rem;
 }
 
-#wywh-front {
-    margin-top: 18rem; 
-    margin-bottom: 40rem; 
-    margin-left: -7rem;
-}
-
-.blue-back {
-    background-color: #487D85; 
-    margin-top: 25rem; 
-    margin-bottom: 15rem; 
-    margin-left: 10rem;
-    margin-right: -7rem; 
-}
-
-#icarus-back {
-    margin-top: 30rem; 
-    margin-bottom: 24rem; 
-}
-
-#odyssey-back {
-    margin-top: 34rem; 
-    margin-bottom: 22rem; 
-}
-
-#movies-back{
-    margin-top: 16rem; 
-    margin-bottom: 26rem; 
-}
-
-.yellow-front {
-    background-color: #FFC200; 
-    margin-top: 20rem; 
-    margin-bottom: 43rem; 
-    margin-left: 10rem;
-    margin-right: -10rem; 
-    z-index: 1;
-    color: #F5F9F4; 
-    padding-top: 2rem; 
-    padding-bottom: 2rem; 
-}
-
-#kazin-front {
-    margin-top: 40rem; 
-    margin-bottom: 25rem;
-    margin-right: -4rem;  
-}
-
-#denise-front {
-    margin-top: 30rem; 
-    margin-bottom: 40rem; 
-    margin-right: -5rem; 
-}
-
-#timmy-front {
-    margin-top: 20rem; 
-    margin-bottom: 43rem; 
-    margin-right: -5rem; 
-}
-
-.yellow-back {
-    background-color: #FFC200;
-    margin-top: 25rem; 
-    margin-bottom: 27rem; 
-    margin-left: -1.1rem;
-    margin-right: 10rem; 
-}
-
-#kazin-back {
-    margin-top: 20rem; 
-    margin-bottom: 33rem; 
-}
-
-#denise-back {
-    margin-top: 15rem; 
-    margin-bottom: 50rem; 
-}
-
-#timmy-back {
-    margin-top: 27rem; 
-    margin-bottom: 22rem; 
-}
-
-.orange-front {
-    background-color: #F74300; 
-    margin-top: 31rem; 
-    margin-bottom: 20rem; 
-    margin-left: -10rem;
-    margin-right: 10rem; 
-    z-index: 1;
-    color: #F5F9F4;
-    padding-top: 2rem; 
-    padding-bottom: 2rem; 
-}
-
-#artychokes-front {
-    margin-top: 40rem; 
-    margin-bottom: 25rem; 
-    margin-left: -7rem;
-}
-
-#furnar-front {
-    margin-left: -4rem;
-}
-
 #pandora-front {
     margin-top: 38rem; 
     margin-bottom: 28rem; 
     margin-left: -5rem;
+}
+
+#wywh-front {
+    margin-top: 18rem; 
+    margin-bottom: 40rem; 
+    margin-left: -7rem;
 }
 
 #trad-front {
@@ -560,17 +542,43 @@ footer {
     margin-left: -3rem;
 }
 
-.orange-back {
-    background-color: #F74300;  
-    margin-top: 17rem; 
-    margin-bottom: 30rem; 
+.black-left {
+    background-color: #F5F9F4; 
+    border: solid 0.2rem #282322; 
+    margin-top: 25rem; 
+    margin-bottom: 15rem; 
     margin-left: 10rem;
     margin-right: -7rem; 
+}
+
+#canterbury-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#icarus-back {
+    margin-top: 30rem; 
+    margin-bottom: 24rem; 
 }
 
 #artychokes-back {
     margin-top: 17rem; 
     margin-bottom: 30rem; 
+}
+
+#odyssey-back {
+    margin-top: 34rem; 
+    margin-bottom: 22rem; 
+}
+
+#danzac-back {
+    margin-top: 17rem; 
+    margin-bottom: 30rem; 
+}
+
+#movies-back{
+    margin-top: 16rem; 
+    margin-bottom: 26rem; 
 }
 
 #pandora-back{
@@ -664,11 +672,31 @@ a .work-link:hover {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #F5F9F4;
-    border-radius: 4px;
+    background-color: #F5F9F4;
+    border-top: 0.1rem solid #F5F9F4;
+    border-left: 0.1rem solid #F5F9F4;
+    border-right: 0.1rem solid #F5F9F4;
+    border-bottom: 0.2rem solid #282322; 
+    border-radius: 0.4rem;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+    resize: vertical;
+    outline: none; 
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    background-color: #F5F9F4;
+    border-top: 0.1rem solid #F5F9F4;
+    border-left: 0.1rem solid #F5F9F4;
+    border-right: 0.1rem solid #F5F9F4;
+    border-bottom: 0.2rem solid #282322; 
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
     resize: vertical;
     outline: none; 
   }
@@ -691,9 +719,10 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: #F5F9F4;
   -webkit-text-fill-color: #282322; 
   transition: background-color 5000s ease-in-out 0s;
+  border: 0.1rem solid #F5F9F4;
+ 
 }
 
 input.invalid {
