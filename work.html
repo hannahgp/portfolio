@@ -14,21 +14,31 @@
 
     <link rel="stylesheet" href="portfolio.css">
 
+    <link rel="icon" type="image/png" href="imgs/favicon.png" sizes="32x32">
+
     <title> Hannah GP </title>
 </head>
 
 <body>
-    <ul class="nav justify-content-end sticky-top">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html"> <span class="strike"> HOME </span> </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="work.html"> <span class="strike"> WORK </span> </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html"> <span class="strike"> CONTACT </span> </a>
-        </li>
-    </ul>
+    <nav class="nav navbar navbar-expand-lg  justify-content-end sticky-top">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+            <ul class="nav  d-flex justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"> <span class="strike"> HOME </span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html"> <span class="strike"> WORK </span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> <span class="strike"> CONTACT </span> </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <header>
         <h1> work </h1>
@@ -36,16 +46,19 @@
 
     <div class="section1">
         <div class="row ">
-            <div class="col-3 orange-left align-items-center justify-content-center" id="zahra-front">
+            <div class="col-xl-3 order-xl-1 order-lg-2 orange-left align-items-center justify-content-center"
+                id="zahra-front">
                 <h4>
                     <a href="1zahra.html" class="work-link"> Zahra Wedding Anniversary </a>
                 </h4>
                 <p class="description"> Artwork to celebrate Rosette x Alfio's wedding anniversary </p>
             </div>
-            <div class="col-4 justify-content-center">
+
+            <div class="col-xl-4 order-xl-2 order-lg-1 justify-content-center">
                 <img src="imgs/work/zahra.svg" alt="zahra wedding anniversary" class="image">
             </div>
-            <div class="col black-right" id="zahra-back">
+
+            <div class="col order-xl-3 black-right" id="zahra-back">
             </div>
         </div>
     </div>
@@ -359,19 +372,6 @@
         </div>
     </div>
 
-    <div class="section1">
-        <div class="row">
-            <div class="col-2 black-left" id="trad-back"> </div>
-            <div class=" col-4 justify-content-center">
-                <img src="imgs/work/traditional.svg" alt="traditiona;-works" class="image">
-            </div>
-            <div class="col orange-right align-items-center justify-content-center" id="trad-front">
-                <h4>
-                    <a href="18traditional.html" class="work-link"> Traditional Works </a>
-                </h4>
-                <p class="description"> Collection of traditional work </p>
-            </div>
-        </div>
     </div>
 
     <footer>

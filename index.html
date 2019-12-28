@@ -13,6 +13,9 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link rel="icon" type="image/png" href="imgs/favicon.png" sizes="32x32">
 
     <script src="https://kit.fontawesome.com/3afe917102.js" crossorigin="anonymous"></script>
 
@@ -21,22 +24,27 @@
 </head>
 
 <body>
-
-    <!--
-    <div class="container">
-        <div class="bottom-layer"></div>
-        <div class="bottom-layer bottom-layer--2"></div>
-        <div class="bottom-layer bottom-layer--3"></div>
-
-        <div class="buttons">
-            <button id="bottom">
-                <h4> PRESS </h4>
-            </button>
+    <nav class="nav navbar navbar-expand-lg  justify-content-end sticky-top">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+            <ul class="nav  d-flex justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"> <span class="strike"> HOME </span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html"> <span class="strike"> WORK </span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> <span class="strike"> CONTACT </span> </a>
+                </li>
+            </ul>
         </div>
-    </div> -->
+    </nav>
 
-
-    <ul class="nav justify-content-end sticky-top ">
+    <!--  <ul class="nav justify-content-end sticky-top ">
         <li class="nav-item">
             <a class="nav-link active" href="index.html"> <span class="strike"> HOME </span> </a>
         </li>
@@ -46,7 +54,7 @@
         <li class="nav-item">
             <a class="nav-link" href="contact.html"> <span class="strike"> CONTACT </span> </a>
         </li>
-    </ul>
+    </ul> -->
 
     <header>
         <h1>hannah grech pirotta</h1>
@@ -63,11 +71,11 @@
     <div class="about-div">
         <h2> creative. </h2>
         <hr class="black-rule">
-        <h5 id="about"> Brand Identity </h5>
+        <h5> Brand Identity </h5>
         <h2 class="ampersand"> & </h2>
-        <h5 id="about"> Editorial </h5>
+        <h5> Editorial </h5>
         <h2 class="ampersand"> & </h2>
-        <h5 id="about"> Illustration </h5>
+        <h5> Illustration </h5>
     </div>
 
     <div class="work-div">
@@ -177,7 +185,7 @@
         <img src="imgs/index-ferris.svg" alt="ferris" class="index-ferris">
     </div>
 
-    <div class="index-img-div">
+    <div class="index-img-div rect-div3">
         <img src="imgs/rectangles-vert.svg" alt="rectangles-vertical" class="rectangles-vert2">
     </div>
 
@@ -218,24 +226,12 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
+
+    <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
-        const buttons = document.getElementsByTagName("button");
-
-        for (const button of buttons) {
-            button.addEventListener('click', () => {
-                var id = button.getAttribute("id");
-
-                var layerClass = "." + id + "-layer";
-                var layers = document.querySelectorAll(layerClass);
-                for (const layer of layers) {
-                    layer.classList.toggle("active");
-                }
-            });
-        }
-
-        const btn = document.querySelector('button');
-
+        new WOW().init();
     </script>
+
 
 </body>
 
