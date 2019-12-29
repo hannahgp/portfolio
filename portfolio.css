@@ -195,6 +195,20 @@ header {
     position: relative; 
 }
 
+.about-titles1 {
+    animation-delay: 1.5s;
+  }
+
+.about-titles2 {
+    animation-delay: 1.8s;
+  }
+
+.about-titles3 {
+    animation-delay: 2s;
+  }
+  
+
+
 .ampersand {
     text-align: center;
     margin-top: 2%; 
