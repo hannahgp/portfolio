@@ -47,7 +47,7 @@ h2 {
 
 h4 {
     font-weight: lighter;
-    font-size: 3rem;
+    font-size: 2.4vw;
 }
 
 h5 {
@@ -196,15 +196,15 @@ header {
 }
 
 .about-titles1 {
-    animation-delay: 1.5s;
+    animation-delay: 2s;
   }
 
 .about-titles2 {
-    animation-delay: 1.8s;
+    animation-delay: 2.5s;
   }
 
 .about-titles3 {
-    animation-delay: 2s;
+    animation-delay: 2.8s;
   }
   
 
@@ -236,6 +236,7 @@ header {
     padding-bottom: 5%; 
     padding-left: 8%; 
     padding-right: 8%; 
+    animation-delay: 4s;
 }
 
 .index-img-div {
@@ -824,3 +825,31 @@ input.invalid {
       display: none;
     }
   }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F5F9F4; 
+    border: solid 0.2rem #F74300;     
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 

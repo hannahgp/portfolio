@@ -14,13 +14,11 @@
 
     <link rel="stylesheet" href="portfolio.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
     <script src="https://kit.fontawesome.com/3afe917102.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/animate.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="aos.css">
 
     <link rel="icon" type="image/png" href="imgs/favicon.png" sizes="32x32">
 
@@ -75,14 +73,17 @@
     <div class="about-div">
         <h2> creative. </h2>
         <hr class="black-rule">
-        <h5 class="about-titles1 animated fadeInLeft"> Brand Identity </h5>
-        <h2 class="ampersand"> & </h2>
-        <h5 class="about-titles2 animated fadeInLeft"> Editorial </h5>
-        <h2 class="ampersand"> & </h2>
-        <h5 class="about-titles3 animated fadeInLeft"> Illustration </h5>
+        <h5 class="about-titles1" data-aos="fade-right"> Brand
+            Identity </h5>
+        <h2 class="ampersand" data-aos="fade-left"> & </h2>
+        <h5 class="about-titles2" data-aos="fade-right"> Editorial
+        </h5>
+        <h2 class="ampersand" data-aos="fade-left"> & </h2>
+        <h5 class="about-titles3" data-aos="fade-right">
+            Illustration </h5>
     </div>
 
-    <div class="work-div">
+    <div class="work-div" data-aos="fade-right">
         <h2 class="title-orange"> recent work </h2>
 
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -140,24 +141,24 @@
         <h2> education </h2>
 
         <div class="row timeline-row">
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-up">
                 <h2 class="timeline-date"> 2020 </h2>
                 <h6 class="timeline-month"> SEPTEMBER </h6>
             </div>
             <div class="col-1"> </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <h5 class="timeline-title"> University of Malta </h5>
                 <p class="p-timeline"> Graduated with Bachelor of Fine Arts (Hons) in Digital Arts </p>
             </div>
         </div>
 
         <div class="row timeline-row">
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-up">
                 <h2 class="timeline-date"> 2018 </h2>
                 <h6 class="timeline-month"> SEPTEMBER </h6>
             </div>
             <div class="col-1"> </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <h5 class="timeline-title"> Canterbury Christ Church University </h5>
                 <p class="p-timeline"> Four Month Erasmus Exchange <br> Design Fundamentals in Print, Design
                     Fundamental
@@ -169,12 +170,12 @@
         </div>
 
         <div class="row timeline-row">
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-up">
                 <h2 class="timeline-date"> 2017</h2>
                 <h6 class="timeline-month"> OCTOBER </h6>
             </div>
             <div class="col-1"> </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <h5 class="timeline-title"> University of Malta </h5>
                 <p class="p-timeline"> Started Bachelor of Fine Arts (Hons) in Digital Arts </p>
             </div>
@@ -193,19 +194,19 @@
         <img src="imgs/rectangles-vert.svg" alt="rectangles-vertical" class="rectangles-vert2">
     </div>
 
-    <div class="findme-div">
+    <div class="findme-div" data-aos="fade-left">
         <h2 class="title-orange"> find me </h2>
 
         <a href="https://www.instagram.com/hannahgp_art/" target="_blank">
-            <i class="fab fa-instagram fa-7x contact-instagram"> </i>
+            <i class="fab fa-instagram fa-7x contact-instagram" data-aos="fade-up"> </i>
         </a>
 
         <a href="https://www.behance.net/hannahgp" target="_blank">
-            <i class="fab fa-behance-square fa-7x contact-behance"> </i>
+            <i class="fab fa-behance-square fa-7x contact-behance" data-aos="fade-up"> </i>
         </a>
 
         <a href="mailto:hannahgrechpirotta99@gmail.com" target="_blank">
-            <i class="fas fa-envelope-square fa-7x contact-email"></i>
+            <i class="fas fa-envelope-square fa-7x contact-email" data-aos="fade-up"></i>
         </a>
 
     </div>
@@ -231,9 +232,12 @@
         crossorigin="anonymous"></script>
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="aos.js"></script>
 
-
-
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 
 
 

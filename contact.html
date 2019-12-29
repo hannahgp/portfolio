@@ -16,6 +16,8 @@
 
     <script src="https://kit.fontawesome.com/3afe917102.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="aos.css">
+
     <link rel="icon" type="image/png" href="imgs/favicon.png" sizes="32x32">
 
     <title> Hannah GP </title>
@@ -48,23 +50,23 @@
 
 
     <form id="regForm">
-        <label for="name" class="form-title">
+        <label for="name" class="form-title" data-aos="fade-right">
             What's your name?
         </label>
 
-        <input id="name" type="text" name="first-name" placeholder="Jane Doe" required>
+        <input id="name" type="text" name="first-name" placeholder="Jane Doe" required data-aos="fade-up">
         <br>
-        <label for="email" class="form-title">
+        <label for="email" class="form-title" data-aos="fade-right">
             Email
         </label>
 
-        <input id="email" type="email" name="email" placeholder="Email" required>
+        <input id="email" type="email" name="email" placeholder="Email" required data-aos="fade-up">
         <br>
-        <label for="message" class="form-title">
+        <label for="message" class="form-title" data-aos="fade-right">
             Talk to us
         </label>
 
-        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <textarea id="message" name="message" placeholder="Your message" required data-aos="fade-up"></textarea>
 
         <input type="submit">
     </form>
@@ -84,6 +86,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="aos.js"></script>
+
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
