@@ -3,6 +3,16 @@ src: url(fonts/Sophillia.otf);
 font-family: sopillia; 
 }
 
+@font-face {
+    font-family: 'sophillia';
+    src: url(fonts/Sophillia.otf);
+    src: url(fonts/Sophillia.otf) format('embedded-opentype'),
+    url(fonts/Sophillia.otf) format('woff2'),
+    url(fonts/Sophillia.otf) format('woff'),
+    url(fonts/Sophillia.otf) format('truetype'),
+    url(fonts/Sophillia.otf) format('svg');
+} 
+
 /* colours: 
 beige #F6EEDA
 white #F5F9F4
