@@ -1,9 +1,4 @@
 @font-face {
-src: url(fonts/Sophillia.otf);
-font-family: sopillia; 
-}
-
-@font-face {
     font-family: 'sophillia';
     src: url(fonts/Sophillia.otf);
     src: url(fonts/Sophillia.otf) format('embedded-opentype'),
@@ -14,7 +9,7 @@ font-family: sopillia;
 } 
 
 /* colours: 
-beige #F6EEDA
+beige #ECD8C1
 white #F5F9F4
 orange #F74300
 black #282322
@@ -216,8 +211,6 @@ header {
 .about-titles3 {
     animation-delay: 2.8s;
   }
-  
-
 
 .ampersand {
     text-align: center;
@@ -392,280 +385,12 @@ footer {
     font-size: 1vw; 
 }
 
-.section1 {
-    background-color: transparent; 
-    width: 100%; 
-}
-
 .image {
     margin-top: 12rem;
     margin-bottom: 12rem; 
     z-index: -1; 
     margin-right: 0;
     border: solid 0.01rem #F5F9F4; 
-}
-
-.orange-left {
-    background-color: #F5F9F4; 
-    color: #F74300; 
-    border: solid 0.2rem #F74300; 
-    margin-top: 30rem; 
-    margin-bottom: 15rem; 
-    margin-left: 10rem;
-    margin-right: -7rem; 
-    z-index: 1;
-    padding-top: 3rem; 
-    padding-bottom: 2rem; 
-}
-
-#zahra-front {
-    margin-top: 38rem; 
-    margin-bottom: 20rem; 
-    padding-top: 2rem; 
-    padding-bottom: 1rem; 
-}
-
-#change-front {
-    margin-top: 20rem; 
-    margin-bottom: 43rem; 
-    margin-right: -10rem; 
-    padding-top: 2rem; 
-}
-
-#family-front {
-    margin-top: 20rem; 
-    margin-bottom: 43rem; 
-    margin-right: -10rem; 
-    padding-top: 2rem; 
-}
-
-#dungarees-front {
-    margin-top: 46rem; 
-    margin-bottom: 20rem; 
-    margin-right: -4rem; 
-}
-
-#shaq-front {
-    margin-top: 47rem; 
-    margin-bottom: 16rem; 
-    margin-right: -4rem; 
-}
-
-#kazin-front {
-    margin-top: 40rem; 
-    margin-bottom: 25rem;
-    margin-right: -4rem;  
-}
-#pulp-front {
-    margin-top: 27rem; 
-    margin-bottom: 39rem; 
-    margin-right: -5rem; 
-}
-
-#denise-front {
-    margin-top: 30rem; 
-    margin-bottom: 40rem; 
-    margin-right: -5rem; 
-}
-
-#frogs-front {
-    margin-top: 37rem; 
-    margin-bottom: 30rem; 
-    margin-right: -5rem; 
-}
-
-#timmy-front {
-    margin-top: 20rem; 
-    margin-bottom: 43rem; 
-    margin-right: -5rem; 
-}
-
-.black-right {
-    background-color: #F5F9F4; 
-    border: solid 0.2rem #282322;
-    z-index: -2; 
-    position: relative;
-    margin-top: 18rem; 
-    margin-bottom: 20rem; 
-    margin-left: -2rem;
-    margin-right: 10rem; 
-}
-
-#zahra-back {
-    margin-top: 18rem; 
-    margin-bottom: 34rem; 
-}
-
-#change-back {
-    margin-top: 25rem; 
-    margin-bottom: 27rem; 
-    margin-left: -1.8rem;
-}
-
-#family-back {
-    margin-top: 25rem; 
-    margin-bottom: 27rem; 
-    margin-left: -1.8rem;
-}
-
-#dungarees-back {
-    margin-top: 25rem; 
-    margin-bottom: 27rem; 
-    margin-left: -1.8rem;
-}
-
-#kazin-back {
-    margin-top: 20rem; 
-    margin-bottom: 33rem; 
-}
-
-#pulp-back {
-    margin-top: 32rem; 
-    margin-bottom: 20rem; 
-}
-
-#denise-back {
-    margin-top: 15rem; 
-    margin-bottom: 50rem; 
-}
-
-#frogs-back {
-    margin-top: 18rem; 
-    margin-bottom: 35rem; 
-}
-
-#timmy-back {
-    margin-top: 27rem; 
-    margin-bottom: 22rem; 
-}
-
-.orange-right {
-    background-color: #F5F9F4; 
-    color: #F74300; 
-    border: solid 0.2rem #F74300;     
-    margin-top: 18rem; 
-    margin-bottom: 30rem; 
-    margin-left: -10rem;
-    margin-right: 10rem; 
-    z-index: 1;
-    padding-top: 2rem; 
-    padding-bottom: 2rem; 
-}
-
-#canterbury-front {
-    margin-top: 31rem; 
-    margin-bottom: 20rem; 
-}
-
-#icarus-front {
-    margin-top: 18rem; 
-    margin-bottom: 42rem; 
-}
-
-#artychokes-front {
-    margin-top: 40rem; 
-    margin-bottom: 25rem; 
-    margin-left: -7rem;
-}
-
-#wellies-front {
-    margin-top: 15rem; 
-    margin-bottom: 40rem; 
-    margin-left: -5rem;
-}
-
-#odyssey-front {
-    margin-top: 24rem; 
-    margin-bottom: 44rem; 
-    margin-left: -4rem;
-}
-
-#danzac-front {
-    margin-top: 31rem; 
-    margin-bottom: 30rem; 
-    margin-left: -4rem;
-}
-
-#movies-front {
-    margin-top: 40rem; 
-    margin-bottom: 15rem; 
-    margin-left: -3rem;
-}
-
-#pandora-front {
-    margin-top: 38rem; 
-    margin-bottom: 28rem; 
-    margin-left: -5rem;
-}
-
-#wywh-front {
-    margin-top: 18rem; 
-    margin-bottom: 40rem; 
-    margin-left: -7rem;
-}
-
-#trad-front {
-    margin-top: 42rem; 
-    margin-bottom: 18rem; 
-    margin-left: -3rem;
-}
-
-.black-left {
-    background-color: #F5F9F4; 
-    border: solid 0.2rem #282322; 
-    margin-top: 25rem; 
-    margin-bottom: 15rem; 
-    margin-left: 10rem;
-    margin-right: -7rem; 
-}
-
-#look-back {
-    margin-bottom: 18rem; 
-}
-
-#canterbury-back {
-    margin-top: 17rem; 
-    margin-bottom: 30rem; 
-}
-
-#icarus-back {
-    margin-top: 30rem; 
-    margin-bottom: 24rem; 
-}
-
-#artychokes-back {
-    margin-top: 17rem; 
-    margin-bottom: 30rem; 
-}
-
-#wellies-back {
-    margin-top: 20rem; 
-    margin-bottom: 25rem; 
-}
-
-#odyssey-back {
-    margin-top: 34rem; 
-    margin-bottom: 22rem; 
-}
-
-#danzac-back {
-    margin-top: 17rem; 
-    margin-bottom: 30rem; 
-}
-
-#movies-back{
-    margin-top: 16rem; 
-    margin-bottom: 26rem; 
-}
-
-#pandora-back{
-    margin-top: 17rem; 
-    margin-bottom: 34rem; 
-}
-
-.description {
-    font-size: 1.3rem; 
-    color: #282322; 
 }
 
 .work1 {
@@ -731,112 +456,7 @@ footer {
     margin-bottom: 7rem; 
 }
 
-#regForm {
-    background-color: #F5F9F4;
-    margin: 12% auto;
-    font-family: 'Montserrat', sans-serif;
-    padding: 4%;
-    width: 70%;
-    min-width: 30%;
-  }
-
-::placeholder { 
-    color: #282322; 
-    opacity: 0.8; 
-} 
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 2%;
-    font-size: 1.3vw; 
-    background-color: #F5F9F4;
-    border-top: 0.1vw solid #F5F9F4;
-    border-left: 0.1vw solid #F5F9F4;
-    border-right: 0.1vw solid #F5F9F4;
-    border-bottom: 0.3vw solid #282322; 
-    border-radius: 0.1vw;
-    box-sizing: border-box;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    resize: vertical;
-    outline: none; 
-  }
-
-  input[type=email] {
-    width: 100%;
-    padding: 2%;
-    font-size: 1.3vw; 
-    background-color: #F5F9F4;
-    border-top: 0.1vw solid #F5F9F4;
-    border-left: 0.1vw solid #F5F9F4;
-    border-right: 0.1vw solid #F5F9F4;
-    border-bottom: 0.3vw solid #282322; 
-    border-radius: 0.1vw;
-    box-sizing: border-box;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    resize: vertical;
-    outline: none; 
-  }
-  
-input {
-    padding: 0.8rem;
-    width: 100%;
-    font-size: 1.7rem;
-    border: solid 0.1vw #F5F9F4;
-    color: #282322; 
-    outline: none; 
-  }
-
-  
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #282322; 
-  transition: background-color 5000s ease-in-out 0s;
-  border: 0.2vw solid #F5F9F4;
- 
-}
-
-input.invalid {
-    border: solid 0.2vw #F74300;   
-  }
-
-  input[type=submit] {
-    background-color: #F74300;    
-    color: #F5F9F4;
-    border: none;
-    border-radius: 0.4vw;
-    padding: 2% 3%;
-    font-size: 1.7vw;
-    cursor: pointer;
-    width: 30%; 
-  }
-
-  input[type=submit]:hover {
-    background-color:#282322;   
-  }
-
-  .form-title {
-    font-weight: lighter;
-    font-size: 2.5vw;
-    color: #F74300;
-  }
-  
-
-@media only screen and (max-width: 1000px) {
-    .rect-div3 {
-      display: none;
-    }
-  }
-
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -862,4 +482,10 @@ input.invalid {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  } 
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .rect-div3 {
+      display: none;
+    }
+  }

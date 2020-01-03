@@ -1,0 +1,95 @@
+#regForm {
+    background-color: #F5F9F4;
+    margin: 12% auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4%;
+    width: 70%;
+    min-width: 30%;
+  }
+
+::placeholder { 
+    color: #282322; 
+    opacity: 0.8; 
+} 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2%;
+    font-size: 1.3vw; 
+    background-color: #F5F9F4;
+    border-top: 0.1vw solid #F5F9F4;
+    border-left: 0.1vw solid #F5F9F4;
+    border-right: 0.1vw solid #F5F9F4;
+    border-bottom: 0.3vw solid #282322; 
+    border-radius: 0.1vw;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    resize: vertical;
+    outline: none; 
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 2%;
+    font-size: 1.3vw; 
+    background-color: #F5F9F4;
+    border-top: 0.1vw solid #F5F9F4;
+    border-left: 0.1vw solid #F5F9F4;
+    border-right: 0.1vw solid #F5F9F4;
+    border-bottom: 0.3vw solid #282322; 
+    border-radius: 0.1vw;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    resize: vertical;
+    outline: none; 
+  }
+  
+input {
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1.7rem;
+    border: solid 0.1vw #F5F9F4;
+    color: #282322; 
+    outline: none; 
+  }
+  
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #282322; 
+  transition: background-color 5000s ease-in-out 0s;
+  border: 0.2vw solid #F5F9F4;
+}
+
+input.invalid {
+    border: solid 0.2vw #F74300;   
+  }
+
+  input[type=submit] {
+    background-color: #F74300;    
+    color: #F5F9F4;
+    border: none;
+    border-radius: 0.4vw;
+    padding: 2% 3%;
+    font-size: 1.7vw;
+    cursor: pointer;
+    width: 30%; 
+  }
+
+  input[type=submit]:hover {
+    background-color:#282322;   
+  }
+
+  .form-title {
+    font-weight: lighter;
+    font-size: 2.5vw;
+    color: #F74300;
+  }

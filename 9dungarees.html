@@ -14,28 +14,18 @@
 
     <link rel="stylesheet" href="portfolio.css">
 
+    <link rel="stylesheet" href="work.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="aos.css">
+
     <link rel="icon" type="image/png" href="imgs/favicon.png" sizes="32x32">
 
     <title> Hannah GP </title>
 </head>
 
 <body>
-    <ul class="nav justify-content-end sticky-top">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html"> <span class="strike"> HOME </span> </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="work.html"> <span class="strike"> WORK </span> </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html"> <span class="strike"> CONTACT </span> </a>
-        </li>
-    </ul>
-
-    <header>
-        <h1> dungarees </h1>
-    </header>
-
     <nav class="nav navbar navbar-expand-lg  justify-content-end sticky-top">
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +46,22 @@
         </div>
     </nav>
 
+    <header>
+        <h1> dungarees </h1>
+    </header>
+
+    <div class="work1">
+        <div class="row">
+            <div class="col-1 col-sm-3"> </div>
+            <div class="col-md-4 col-sm-6 col-4" data-aos="fade-right">
+                <img src="imgs/work/dungarees.svg" alt="dungarees" class="image">
+            </div>
+            <div class="col-sm-5 col-md-5 justify-content-center align-self-center" data-aos="fade-left">
+                <h5> Dungarees </h5>
+                <p> Artwork Gift Commission </p>
+            </div>
+        </div>
+    </div>
 
 
     <footer>
@@ -72,6 +78,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="aos.js"></script>
+
+    <script type="text/javascript">
+        AOS.init();
+    </script>
 
 </body>
 
