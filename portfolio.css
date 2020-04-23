@@ -201,8 +201,8 @@ header {
     background-color: transparent;
     text-align: center; 
     font-size: 1.2rem;
-    padding-top: 5%; 
-    padding-bottom: 13%;
+    padding-top: -80%; 
+    padding-bottom: 8%;
     padding-right: 30%;
     padding-left: 30%;
     z-index: -1; 
@@ -280,7 +280,7 @@ header {
 .empty-div1 {
     background-color: transparent; 
     width: 100%; 
-    padding-top: 18%; 
+    padding-top: 10%; 
     position: relative;
     z-index: -1; 
 }
@@ -304,7 +304,7 @@ header {
 .rectangles-vert2 {
     width: 3.5%; 
     margin-left: 8%;
-    margin-top: -58rem; 
+    margin-top: -19rem; 
     opacity: 0.8; 
 }
 
@@ -390,6 +390,15 @@ footer {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .new-div {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .blank-work {
+      width: 20%; 
   }
 
   @media only screen and (max-width: 1000px) {

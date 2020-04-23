@@ -63,26 +63,6 @@
             Illustration </h5>
     </div>
 
-    <div class="abouttext-div">
-        <div class="row">
-            <div class="col-7">
-                <h5 class="about-text" data-aos="fade-right"> Hi. I'm Hannah, <br> a graphic designer and
-                    illustrator.
-                </h5>
-                <p class="p-about"> My often minimalist designs strive to communicate clearly, directly, and
-                    effectively.
-                    <br>
-                    As a subtext to all my creative work is a desire to explore the middle-ground between art put to
-                    use,
-                    and
-                    art for art’s sake.</p>
-            </div>
-            <div class="col">
-                <img src="imgs/headshot.svg" alt="headshot" class="headshot">
-            </div>
-        </div>
-    </div>
-
     <div class="work-div" data-aos="fade-right">
         <h2 class="title-orange"> recent work </h2>
 
@@ -132,6 +112,33 @@
 
     <div class="empty-div1"> </div>
 
+    <div class="abouttext-div">
+        <div class="row">
+            <div class="col-7">
+                <h5 class="about-text" data-aos="fade-up"> Hi. I'm Hannah, <br> a graphic designer and
+                    illustrator.
+                </h5>
+                <p class="p-about" data-aos="fade-up"> My often minimalist designs strive to communicate clearly,
+                    directly, and
+                    effectively.
+                    <br>
+                    As a subtext to all my creative work is a desire to explore the middle-ground between art put to
+                    use,
+                    and
+                    art for art’s sake.</p>
+            </div>
+            <div class="col">
+                <img src="imgs/headshot.svg" alt="headshot" class="headshot" data-aos="fade-left">
+            </div>
+        </div>
+    </div>
+
+    <div class="empty-div1"> </div>
+
+    <div class="index-img-div rect-div3">
+        <img src="imgs/rectangles-vert.svg" alt="rectangles-vertical" class="rectangles-vert2">
+    </div>
+
     <div class="education-div justify-content-end">
 
         <h2 data-aos="fade-up"> education </h2>
@@ -178,10 +185,6 @@
         </div>
     </div>
 
-    <div class="index-img-div rect-div3">
-        <img src="imgs/rectangles-vert.svg" alt="rectangles-vertical" class="rectangles-vert2">
-    </div>
-
     <div class="findme-div" data-aos="fade-left">
         <h2 class="title-orange" data-aos="fade-up"> find me </h2>
 
@@ -196,7 +199,48 @@
         <a href="mailto:hannahgrechpirotta99@gmail.com" target="_blank">
             <i class="fas fa-envelope-square fa-7x contact-email" data-aos="fade-up"></i>
         </a>
+    </div>
 
+    <div class="new-div">
+        <ul id="navigation">
+            <li><a id="1" href="#" data-filename="imgs/change">
+                    <h5> Change - Vinyl Paradise </h5>
+                </a></li>
+            <li><a id="2" href="#" data-filename="imgs/mustash">
+                    <h5> Mustash Productions </h5>
+                </a></li>
+            <li><a id="3" href="#" data-filename="imgs/sidebyside">
+                    <h5> Side By Side </h5>
+                </a></li>
+            <li><a id="4" href="#" data-filename="imgs/artychokes">
+                    <h5> Artychokes Cabarets </h5>
+                </a></li>
+            <li><a id="5" href="#" data-filename="imgs/lookathergo">
+                    <h5> Look At Her Go </h5>
+                </a></li>
+            <li><a id="6" href="#" data-filename="imgs/Zahra">
+                    <h5> Zahra Anniversary </h5>
+                </a></li>
+            <li><a id="7" href="#" data-filename="imgs/dungarees">
+                    <h5> Dungarees </h5>
+                </a></li>
+            <li><a id="8" href="#" data-filename="imgs/deguara">
+                    <h5> Deguara Wedding </h5>
+                </a></li>
+            <li><a id="9" href="#" data-filename="imgs/CanterburyCafes">
+                    <h5> Canterbury Cafés </h5>
+                </a></li>
+            <li><a id="10" href="#" data-filename="imgs/DanceClass">
+                    <h5> Dance Class </h5>
+                </a></li>
+            <li><a id="11" href="#" data-filename="imgs/">
+                    <h5> Illustrations </h5>
+                </a></li>
+        </ul>
+
+        <div class="box">
+            <img src="imgs/blank-work.svg" class="blank-work">
+        </div>
     </div>
 
     <footer>
@@ -221,6 +265,21 @@
 
     <script>
         AOS.init();
+
+        $(document).ready(function () {
+            $('#navigation li a').hover(
+                function () {
+                    var linkIndex = $(this).attr("data-filename");
+                    $(this).addClass('hover');
+                    $('.box img').attr('src', linkIndex + '.svg');
+                },
+                function () {
+                    $(this).removeClass('hover');
+                    $('.box img').attr('src', 'imgs/blank-work.svg');
+                }
+            );
+        });
+
     </script>
 
 
