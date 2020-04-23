@@ -392,33 +392,22 @@ footer {
     text-align: center;
   }
 
-  .work-title-div {
+  .new-title {
     width: 100%; 
-    background-color: transparent;
-    padding-top: 5%; 
-    padding-right: 12%;
-    padding-left: 15%;
-    text-align: center; 
-    font-size: 1.2rem;
-    z-index: -1; 
-    position: relative; 
+    padding-left: 10%; 
+    margin-bottom: -5%; 
   }
 
-  .newwork-div {
-    width: 100%; 
-    background-color: transparent;
-    padding-top: 5%; 
-    padding-right: 5%;
-    padding-left: 15%;
-    text-align: center; 
-    font-size: 1.2rem;
-    z-index: -1; 
-    position: relative; 
-    padding-bottom: 10%; 
-  }
-
-  .title-orange2 {
+  .title-work {
+      color: #EE5023;
       text-align: left; 
+  }
+
+  .new-div {
+    width: 100%; 
+    padding-top: 5%; 
+    padding-bottom: 10%; 
+    padding-left: 10%; 
   }
 
   #navigation {
@@ -426,20 +415,19 @@ footer {
   }
 
   .work-list {
-    text-align: left; 
+      text-align: left; 
   }
 
   .work-image {
-    text-align: center; 
+      text-align: center; 
   }
  
   .blank-work {
-    width: 60%; 
+    width: 70%; 
   }
 
   li {
-    margin: 3%; 
-    font-size: 2vw;
+      margin: 3%; 
   }
 
   a.work-name:hover {
