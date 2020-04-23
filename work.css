@@ -1,27 +1,27 @@
 .work-link {
-    color: #F74300;
+    color: #EE5023;
 }
 
 .work-link:hover {
     font-weight: 300;
     text-decoration: none;
-    color: #F74300;
+    color: #EE5023;
 }
 
 .look-website {
-    color: #282322; 
+    color: #111213; 
     text-decoration: none;
 }
 
 .look-website:hover {
-    color: #F74300;
+    color: #EE5023;
     text-decoration: none;
 }
 
 .image-spec {
     margin-top: 7rem; 
     margin-bottom: 5rem; 
-    border: solid 0.01rem #F5F9F4; 
+    border: solid 0.01rem #F5F4F2; 
 }
 
 .image-grid {
@@ -29,7 +29,7 @@
     margin-bottom: 1rem; 
     margin-left: 0rem;
     margin-right: 0rem; 
-    border: solid 0.01rem #F5F9F4; 
+    border: solid 0.01rem #F5F4F2; 
 }
 
 #icarus-panels {
@@ -41,7 +41,7 @@
 }
 
 .greek-rule1 {
-    border-top: 0.2rem solid #F74300;
+    border-top: 0.2rem solid #EE5023;
     margin-right: 13rem; 
     margin-left: 13rem; 
     margin-top: 5rem;
@@ -49,7 +49,7 @@
 }
 
 .greek-rule2 {
-    border-top: 0.2rem solid #F74300;
+    border-top: 0.2rem solid #EE5023;
     margin-right: 13rem; 
     margin-left: 13rem; 
     margin-top: -5rem;
@@ -66,8 +66,8 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #F5F9F4; 
-    border: solid 0.2rem #F74300;     
+    background-color: #F5F4F2; 
+    border: solid 0.2rem #EE5023;     
   }
   
   .img-container:hover .overlay {

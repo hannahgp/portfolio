@@ -10,9 +10,9 @@
 
 /* colours: 
 beige #ECD8C1
-white #F5F9F4
-orange #F74300
-black #282322
+white #F5F4F2
+orange #EE5023
+black #111213
 yellow #FFC200
 green #055D43
 blue #487D85
@@ -33,19 +33,19 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color:#F5F9F4; 
+    background-color: #F5F4F2; 
     overflow-x: hidden;
 }
 
 h1 {
     font-family: sophillia; 
-    color: #F74300; 
+    color: #EE5023; 
     font-size: 7vw;
 }
 
 h2 {
     font-family: sophillia; 
-    color: #282322; 
+    color: #111213; 
     font-size: 5.2vw; 
     text-align: center;
 }
@@ -58,12 +58,12 @@ h4 {
 h5 {
     font-weight: lighter;
     font-size: 2.5vw;
-    color: #F74300;
+    color: #EE5023;
 }
 
 h6 {
     font-size: 2vw;
-    color: #282322; 
+    color: #111213; 
     font-weight: 500;
     text-align: center; 
 }
@@ -73,8 +73,12 @@ p {
     font-size: 1vw; 
 }
 
+.name {
+    font-size: 4vw;
+}
+
 .title-orange {
-    color: #F74300; 
+    color: #ee5023; 
 }
 
 .timeline-title {
@@ -97,8 +101,13 @@ p {
 }
 
 header {
+    width: 100%;
+    text-align: center;
+    margin-top:-5%;
+ }
+
+ .tofix-header {
     width: 100%; 
-    background-color: #ECD8C1; 
     text-align: center;
     height: auto; 
     padding-top: 24%; 
@@ -121,7 +130,7 @@ header {
  }
 
  .fa-bars {
-     color: #F74300; 
+     color: #EE5023; 
      font-size: 3vw; 
  }
 
@@ -135,7 +144,7 @@ header {
 }
 
 .nav .nav-item .nav-link {
-    color: #F74300; 
+    color: #EE5023; 
     font-size: 1.1rem; 
     font-weight: 500;
 }
@@ -165,12 +174,12 @@ header {
   }
 .strike:after {
     right: 0.25rem;
-    background: #282322;
+    background: #111213;
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
   
 .strike:hover:before {
-    background: #282322;
+    background: #111213;
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
@@ -217,19 +226,9 @@ header {
     margin-top: 2%; 
 }
 
-.index-rocks {
-    width: 27%; 
-    position: relative; 
-    z-index: 2; 
-    margin-top: 15%; 
-    margin-bottom: -80%; 
-    margin-left: 92%; 
-    opacity: 0.8; 
-}
-
 .work-div {
     background-color: transparent; 
-    border: solid 0.2rem #F74300; 
+    border: solid 0.2rem #EE5023; 
     width: 75%; 
     position: relative; 
     z-index: 1; 
@@ -242,12 +241,6 @@ header {
     animation-delay: 4s;
 }
 
-.index-img-div {
-    background-color: transparent; 
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
 .rectangles-hor {
     width: 11%; 
     opacity: 0.9; 
@@ -255,16 +248,6 @@ header {
     margin-left: 73%;   
     margin-top: -65%;   
     margin-bottom: 0; 
-}
-
-.index-windows1 {
-    width: 20%; 
-    margin-top: -10%;  
-    margin-left: 75%; 
-    margin-bottom: -12%; 
-    opacity: 0.5;
-    position:relative; 
-    z-index: -1; 
 }
 
 .empty-div1 {
@@ -276,7 +259,7 @@ header {
 }
 
 .education-div {
-    background-color:#F5F9F4; 
+    background-color:#F5F4F2; 
     width: 65%; 
     position: relative; 
     z-index: 1; 
@@ -289,24 +272,6 @@ header {
 
 .timeline-row {
     margin-top: 4%; 
-}
-
-.index-fly {
-    width: 14%; 
-    position: relative; 
-    z-index: 2; 
-    margin-left: 8%; 
-    margin-top: -73%; 
-    opacity: 0.7;
-}
-
-.index-ferris {
-    width: 14%; 
-    position: relative; 
-    z-index: 2; 
-    margin-left: 12%; 
-    margin-top: -45%; 
-    opacity: 0.7;
 }
 
 .rectangles-vert2 {
@@ -322,7 +287,7 @@ header {
     margin-bottom: 10%; 
     padding-top: 2%;
     background-color: transparent; 
-    border: solid 0.2rem #F74300; 
+    border: solid 0.2rem #EE5023; 
     width: 75%; 
     position: relative; 
     margin-left: 4%; 
@@ -331,53 +296,45 @@ header {
 
 .contact-instagram {
     padding: 2%; 
-    color: #F74300;
+    color: #EE5023;
 }
 
 .contact-behance {
     padding: 2%; 
-    color: #F74300;
+    color: #EE5023;
 }
 
 .contact-email {
     padding: 2%; 
-    color: #F74300;
+    color: #EE5023;
 }
 
 .contact-instagram:hover {
-    color: #282322;
+    color: #111213;
 }
 
 .contact-behance:hover {
-    color: #282322; 
+    color: #111213; 
 }
 
 .contact-email:hover {
-    color: #282322; 
-}
-
-.index-london {
-    width: 28%; 
-    position: relative; 
-    margin-left: 75%; 
-    margin-top: -30%; 
-    opacity: 0.7;
+    color: #111213; 
 }
 
 .black-rule {
-    border-top:  #282322 solid 0.2vw ;     
+    border-top:  #111213 solid 0.2vw ;     
     margin-top: -2%; 
     margin-bottom: 5%; 
  }
  
 .orange-rule {
-     border-top: #F74300 solid 0.2rem; 
+     border-top: #EE5023 solid 0.2rem; 
      margin-top: -1rem; 
  }
 
 footer {
-    background: #282322; 
-    color: #F74300; 
+    background: #111213; 
+    color: #EE5023; 
     width: 100%; 
     height: auto; 
     padding: 6%; 
@@ -390,11 +347,11 @@ footer {
     margin-bottom: 12rem; 
     z-index: -1; 
     margin-right: 0;
-    border: solid 0.01rem #F5F9F4; 
+    border: solid 0.01rem #F5F4F2; 
 }
 
 .work1 {
-    background-color: #F5F9F4;
+    background-color: #F5F4F2;
     width: 100%; 
 }
   
