@@ -394,11 +394,29 @@ footer {
 
   .new-div {
     width: 100%; 
-    text-align: center; 
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    padding-left: 10%; 
   }
 
+  #navigation {
+    list-style-type: none;
+  }
+
+  .work-list {
+      text-align: left; 
+  }
+
+  .work-image {
+      text-align: center; 
+  }
+ 
   .blank-work {
-    width: 20%; 
+    width: 60%; 
+  }
+
+  li {
+      margin: 3%; 
   }
 
   a.work-name:hover {
