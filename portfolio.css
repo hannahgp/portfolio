@@ -294,7 +294,7 @@ header {
     font-size: 1.2rem;
     text-align: left;  
     margin-left: 35%;
-    margin-bottom: 16%;
+    margin-bottom: 10%;
 }
 
 .timeline-row {
@@ -382,7 +382,7 @@ footer {
     width: 100%; 
 }
   
-  .text {
+.text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -392,11 +392,33 @@ footer {
     text-align: center;
   }
 
-  .new-div {
+  .work-title-div {
     width: 100%; 
-    padding-top: 10%; 
+    background-color: transparent;
+    padding-top: 5%; 
+    padding-right: 12%;
+    padding-left: 15%;
+    text-align: center; 
+    font-size: 1.2rem;
+    z-index: -1; 
+    position: relative; 
+  }
+
+  .newwork-div {
+    width: 100%; 
+    background-color: transparent;
+    padding-top: 5%; 
+    padding-right: 5%;
+    padding-left: 15%;
+    text-align: center; 
+    font-size: 1.2rem;
+    z-index: -1; 
+    position: relative; 
     padding-bottom: 10%; 
-    padding-left: 10%; 
+  }
+
+  .title-orange2 {
+      text-align: left; 
   }
 
   #navigation {
@@ -404,11 +426,11 @@ footer {
   }
 
   .work-list {
-      text-align: left; 
+    text-align: left; 
   }
 
   .work-image {
-      text-align: center; 
+    text-align: center; 
   }
  
   .blank-work {
@@ -416,7 +438,8 @@ footer {
   }
 
   li {
-      margin: 3%; 
+    margin: 3%; 
+    font-size: 2vw;
   }
 
   a.work-name:hover {
