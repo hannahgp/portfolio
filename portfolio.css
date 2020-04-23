@@ -401,10 +401,9 @@ footer {
     width: 20%; 
   }
 
-  .work-name:hover {
-    text-decoration: none; 
-    border: none; 
-    color: #111213; 
+  a.work-name:hover {
+      text-decoration: none; 
+      color: #111213; 
   }
 
   @media only screen and (max-width: 1000px) {
