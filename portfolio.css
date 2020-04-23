@@ -209,6 +209,18 @@ header {
     position: relative; 
 }
 
+.abouttext-div {
+    width: 100%; 
+    background-color: transparent;
+    padding-top: 5%; 
+    padding-right: 12%;
+    padding-left: 15%;
+    text-align: center; 
+    font-size: 1.2rem;
+    z-index: -1; 
+    position: relative; 
+}
+
 .about-titles1 {
     animation-delay: 2s;
   }
@@ -224,6 +236,21 @@ header {
 .ampersand {
     text-align: center;
     margin-top: 2%; 
+}
+
+.about-text {
+    text-align: left;
+    color: #EE5023;
+    align-items: center;
+}
+
+.headshot {
+    padding-left: 5%;
+}
+
+.p-about {
+    font-size: 1.2vw; 
+    text-align: left; 
 }
 
 .work-div {
