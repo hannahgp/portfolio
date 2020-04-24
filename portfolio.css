@@ -368,19 +368,6 @@ footer {
     text-align: center; 
     font-size: 1vw; 
 }
-
-.image {
-    margin-top: 12rem;
-    margin-bottom: 12rem; 
-    z-index: -1; 
-    margin-right: 0;
-    border: solid 0.01rem #F5F4F2; 
-}
-
-.work1 {
-    background-color: #F5F4F2;
-    width: 100%; 
-}
   
 .text {
     position: absolute;
@@ -392,18 +379,19 @@ footer {
     text-align: center;
   }
 
-  .new-title {
+.new-title {
     width: 100%; 
     padding-left: 10%; 
     margin-bottom: -5%; 
   }
 
-  .title-work {
-      color: #EE5023;
-      text-align: left; 
+.title-work {
+    color: #EE5023;
+    text-align: left; 
+    margin-bottom: 5%; 
   }
 
-  .new-div {
+.new-div {
     width: 100%; 
     padding-top: 5%; 
     padding-bottom: 10%; 
@@ -411,39 +399,36 @@ footer {
     padding-right: 5%; 
   }
 
-  #navigation {
+#navigation {
     list-style-type: none;
   }
 
-  .work-list {
-      text-align: left; 
+.work-list {
+    text-align: left; 
   }
 
-  .work-image {
-      text-align: center; 
+.work-image {
+    text-align: center; 
   }
  
-  .blank-work {
+.blank-work {
     width: 70%; 
   }
 
-  li {
-      margin: 3%; 
-  }
-
-  .work-name {
+.work-name {
     font-weight: lighter;
     font-size: 2.1vw;
     color: #EE5023;
+    margin-bottom: 4.5%; 
 }
 
 .work-name:hover {
     color: #111213;
 }
 
-  a.work-list:hover {
-      text-decoration: none; 
-      color: #111213; 
+a.work-list:hover {
+    text-decoration: none; 
+    color: #111213; 
   }
 
   @media only screen and (max-width: 1000px) {
