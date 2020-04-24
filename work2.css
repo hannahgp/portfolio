@@ -8,29 +8,10 @@
     color: #EE5023;
 }
 
-.look-website {
-    color: #111213; 
-    text-decoration: none;
-}
 
-.look-website:hover {
-    color: #EE5023;
-    text-decoration: none;
-}
 
-.image-spec {
-    margin-top: 7rem; 
-    margin-bottom: 5rem; 
-    border: solid 0.01rem #F5F4F2; 
-}
 
-.image-grid {
-    margin-top: 1rem; 
-    margin-bottom: 1rem; 
-    margin-left: 0rem;
-    margin-right: 0rem; 
-    border: solid 0.01rem #F5F4F2; 
-}
+
 
 #icarus-panels {
     margin-top: -7rem; 
