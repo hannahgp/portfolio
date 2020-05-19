@@ -234,23 +234,25 @@ header {
   }
 
 .ampersand {
-    text-align: center;
-    margin-top: 2%; 
+  text-align: center;
+  margin-top: 2%; 
 }
 
 .about-text {
-    text-align: left;
-    color: #EE5023;
-    align-items: center;
+  text-align: left;
+  color: #EE5023;
+  align-items: center;
 }
 
 .headshot {
-    padding-left: 5%;
-}
+  padding-left: 5%;
+  align-items: center;
+  text-align: center;
+} 
 
 .p-about {
-    font-size: 1.2vw; 
-    text-align: left; 
+  font-size: 1.2vw; 
+  text-align: left; 
 }
 
 .work-div {
