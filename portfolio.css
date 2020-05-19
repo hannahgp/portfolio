@@ -92,6 +92,7 @@ p {
 .timeline-date {
     font-size: 3.8vw; 
     margin-right: -50%;
+    margin-bottom: 5%;
 }
 
 .timeline-month {
@@ -389,12 +390,12 @@ footer {
     text-align: center;
   }
 
-
+/* media
   @media only screen and (max-width: 1000px) {
-    .rect-div3 {
-      display: none;
+    .p-about {
+      font-size: ;
     }
-  }
+  }  */ 
 
   /* work */ 
 
@@ -409,7 +410,6 @@ footer {
     text-align: left; 
     margin-bottom: 5%; 
   }
-
 
   .new-div {
     width: 100%; 
